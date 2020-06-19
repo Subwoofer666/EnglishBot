@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a08ea50d-cfbf-4142-a18a-4c665e84ed97" name="Default Changelist" comment="" />
+    <list default="true" id="a08ea50d-cfbf-4142-a18a-4c665e84ed97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MyBot/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyBot/Bor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyBot/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyBot/Bor$zxcc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyBot/Bor.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,12 +18,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1c3yav7js5blnpZaougtP4jIhX8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -25,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -35,9 +48,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bor">
-    <configuration name="Bor" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyBot.Bor" />
+  <component name="RunManager" selected="Application.Bot">
+    <configuration name="Bot" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyBot.Bot" />
       <module name="AkameBot" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -51,8 +64,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Bor" />
       <item itemvalue="Application.test" />
+      <item itemvalue="Application.Bot" />
     </list>
   </component>
   <component name="ServiceViewManager">
@@ -81,10 +94,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="87" key="#Project_Structure" timestamp="1592241921734">
+    <state x="392" y="87" key="#Project_Structure" timestamp="1592539168336">
       <screen x="0" y="0" width="1600" height="856" />
     </state>
-    <state x="392" y="87" key="#Project_Structure/0.0.1600.856@0.0.1600.856" timestamp="1592241921734" />
+    <state x="392" y="87" key="#Project_Structure/0.0.1600.856@0.0.1600.856" timestamp="1592539168336" />
     <state x="392" y="87" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1589772352184" />
     <state x="259" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592364277162">
       <screen x="0" y="0" width="1600" height="856" />
@@ -120,25 +133,25 @@
     </state>
     <state x="580" y="183" key="FileChooserDialogImpl/0.0.1600.856@0.0.1600.856" timestamp="1592170758764" />
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1590225203894" />
-    <state width="1558" height="257" key="GridCell.Tab.0.bottom" timestamp="1592538057887">
+    <state width="1558" height="257" key="GridCell.Tab.0.bottom" timestamp="1592539559200">
       <screen x="0" y="0" width="1600" height="856" />
     </state>
-    <state width="1558" height="257" key="GridCell.Tab.0.bottom/0.0.1600.856@0.0.1600.856" timestamp="1592538057887" />
+    <state width="1558" height="257" key="GridCell.Tab.0.bottom/0.0.1600.856@0.0.1600.856" timestamp="1592539559200" />
     <state width="1556" height="257" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1590236055969" />
-    <state width="1558" height="257" key="GridCell.Tab.0.center" timestamp="1592538057887">
+    <state width="1558" height="257" key="GridCell.Tab.0.center" timestamp="1592539559200">
       <screen x="0" y="0" width="1600" height="856" />
     </state>
-    <state width="1558" height="257" key="GridCell.Tab.0.center/0.0.1600.856@0.0.1600.856" timestamp="1592538057887" />
+    <state width="1558" height="257" key="GridCell.Tab.0.center/0.0.1600.856@0.0.1600.856" timestamp="1592539559200" />
     <state width="1556" height="257" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1590236055969" />
-    <state width="1558" height="257" key="GridCell.Tab.0.left" timestamp="1592538057887">
+    <state width="1558" height="257" key="GridCell.Tab.0.left" timestamp="1592539559199">
       <screen x="0" y="0" width="1600" height="856" />
     </state>
-    <state width="1558" height="257" key="GridCell.Tab.0.left/0.0.1600.856@0.0.1600.856" timestamp="1592538057887" />
+    <state width="1558" height="257" key="GridCell.Tab.0.left/0.0.1600.856@0.0.1600.856" timestamp="1592539559199" />
     <state width="1556" height="257" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1590236055969" />
-    <state width="1558" height="257" key="GridCell.Tab.0.right" timestamp="1592538057887">
+    <state width="1558" height="257" key="GridCell.Tab.0.right" timestamp="1592539559200">
       <screen x="0" y="0" width="1600" height="856" />
     </state>
-    <state width="1558" height="257" key="GridCell.Tab.0.right/0.0.1600.856@0.0.1600.856" timestamp="1592538057887" />
+    <state width="1558" height="257" key="GridCell.Tab.0.right/0.0.1600.856@0.0.1600.856" timestamp="1592539559200" />
     <state width="1556" height="257" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1590236055969" />
     <state width="1558" height="271" key="GridCell.Tab.1.bottom" timestamp="1592186667332">
       <screen x="0" y="0" width="1600" height="856" />
