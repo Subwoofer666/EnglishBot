@@ -31,9 +31,8 @@ public class Bot extends TelegramLongPollingBot {
             long chat_id = update.getMessage().getChatId();
             try {
                 ReadFile.readBR();
-                for (int j = 0; j < 5; j++) {
+                for (int j = 0; j < 5; j++,x++) {
                     sendMsg(chat_id, list.get(x));
-                    x++;
                 }
                 Thread.sleep(1000);
             } catch (Exception e) {
